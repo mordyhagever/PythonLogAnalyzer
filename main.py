@@ -6,3 +6,5 @@ def get_file(file_path):
         for row in reader:
             all_rows.append(row)
     return all_rows
+# print(get_file("network_traffic.log"))
+
