@@ -26,5 +26,4 @@ def suspect_list():
         if "NIGHT_ACTIVITY" not in sus_dict[ip]:
             sus_dict[ip].append("NIGHT_ACTIVITY")
     return sus_dict
-print(suspect_list())
-
+#print(suspect_list())
