@@ -1,4 +1,6 @@
 from analyzer import *
+
+#returning a dictionary of all the IP's with a list of what are they suspected for
 def suspect_list():
     sus_dict = {}
     for row in external_ip():
@@ -27,3 +29,4 @@ def suspect_list():
             sus_dict[ip].append("NIGHT_ACTIVITY")
     return sus_dict
 #print(suspect_list())
+
